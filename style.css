@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+/* Header */
+header{}
+header .header_top{
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #0D4AB0;
+    text-align: center;
+}
+header .header_top p{
+    color: #ffffff;
+}
+header .header_top p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+header .header_top p a:hover{
+    color: #81afff;
+}
+header .header_bottom{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header .header_bottom .logo{}
+header .header_bottom nav{}
+header .header_bottom nav ul{
+    display: flex;
+    gap: 25px;
+}
+header .header_bottom nav ul li{
+    list-style-type: none;
+}
+header .header_bottom nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+header .header_bottom nav ul li a:hover{
+    color: #0D4AB0;
+}
+
+
+/* Banner or Hero */
+.banner{
+    position: relative;
+}
+.banner::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 60%);
+    display: block;
+    position: absolute;
+}
+.banner img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.banner .banner_info{
+    width: 1200px;
+    position: absolute;
+    bottom: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+}
+.banner .banner_info .banner_info_texts{
+    color: #ffffff;
+}
+.banner .banner_info .banner_info_texts h1{
+    font-family: "Kaushan Script", serif;
+    font-size: 70px;
+}
+.banner .banner_info .banner_info_texts p{
+    font-size: 19px;
+    font-weight: 300;
+}
+.banner .banner_info a{
+    width: 300px;
+    color: #fff;
+    text-decoration: none;
+    background: #0D4AB0;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 150px;
+}
+.banner .banner_info a:hover{
+    background: #81afff;
+    color: #000;
+}
+
+
+/* About  */
+.about{
+    background: #EBF3FF;
+    padding: 60px 0;
+}
+.about .about_info{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about h2{
+    font-family: "Kaushan Script", serif;
+    font-size: 50px;
+    color: #424242;
+}
+.about p{
+    font-size: 19px;
+    color: #333;
+}
+
+
+/* Services */
+.services{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+}
+.services .serv_info{}
+.services .serv_info h2{
+    font-family: "Kaushan Script", serif;
+    font-size: 50px;
+    color: #424242;
+}
+.services .serv_info p{
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.services .serv_boxes{
+    display: flex;
+    gap: 30px;
+}
+.services .serv_boxes .box{
+    background: #EBF3FF;
+    padding: 50px 15px 30px;
+    border-radius: 20px;
+}
+.services .serv_boxes .box img{
+    height: 100px;
+}
+.services .serv_boxes .box h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #424242;
+    margin: 10px 0 15px;
+}
+.services .serv_boxes .box p{
+    font-size: 19px;
+    color: #333;
+}

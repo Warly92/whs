@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1200px) {
+    /* Header */
+    header .header_top {
+        padding: 20px 0;
+        padding: 20px;
+    }
+    header .header_bottom {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 96%;
+        padding: 20px;
+    }
+    /* Banner */
+    .banner .banner_info {
+        width: 1200px;
+        width: 97%;
+    }
+    .banner .banner_info a {
+        width: 300px;
+        width: 330px;
+    }
+    .banner .banner_info .banner_info_texts h1 {
+        font-size: 55px;
+    }
+    .banner .banner_info .banner_info_texts p {
+        font-size: 19px;
+        font-size: 18px;
+    }
+    /* About */
+    .about .about_info {
+        width: 1200px;
+        width: 100%;
+    }
+    .about {
+        padding: 60px 0;
+        padding: 20px;
+    }
+    /* Services */
+    .services {
+        width: 1200px;
+        padding: 60px 0;
+        width: 95%;
+        padding: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header .header_bottom {
+        flex-direction: column;
+        display: block;
+        text-align: center;
+        }
+    header .header_bottom nav ul {
+        justify-content: center;
+    }
+    /* Banner */
+    .banner img {
+        height: 400px;
+        }
+        .banner::before {
+        height: 400px;
+        }
+
+        .banner .banner_info {
+            display: block;
+            }
+            .banner .banner_info .banner_info_texts h1 {
+            font-size: 55px;
+            font-size: 36px;
+            }
+            .banner .banner_info a {
+            display: block;
+            text-align: center;
+            margin: 15px auto 0;
+            width: 60%;
+            }
+            .banner .banner_info .banner_info_texts {
+                text-align: center;
+                }
+                .banner .banner_info {
+                bottom: 100px;
+                bottom: 35px;
+                }
+
+    /* services */
+    .services {
+        width: 90%;
+        }
+        .services .serv_boxes {
+            flex-direction: column;
+            }
+}
